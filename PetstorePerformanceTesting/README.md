@@ -3,7 +3,7 @@
 
 # PetstorePerformanceTesting - Performance Test Metrics
 
-This document provides an overview of the performance test metrics measured during the execution of the **PetstorePerformanceTesting** project using **K6**. Understanding these metrics is crucial for evaluating the performance, reliability, and scalability of the API.
+The performance section utilize **K6**, a modern load testing tool. The K6 script defined in the project aims to evaluate the performance of various endpoints in the Swagger Petstore API by simulating different user load scenarios. It specifies testing stages to ramp up to 50 virtual users over a minute, sustain that load for three minutes, and then ramp down to zero users over the final minute. The script checks response status codes and response times, ensuring that 95% of requests complete within 200 milliseconds and that fewer than 1% of requests fail. This comprehensive approach allows for the thorough assessment of the API's performance and scalability under realistic user conditions.
 
 ## Performance Test Metrics
 

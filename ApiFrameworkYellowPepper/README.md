@@ -3,7 +3,9 @@
 
 # ApiFrameworkYellowPepper
 
-**ApiFrameworkYellowPepper** is a Java-based testing framework designed to facilitate automated API testing. It utilizes tools like Gradle for build management and Rest Assured for making HTTP requests and validating responses. This framework is highly customizable and scalable, making it ideal for comprehensive API testing across various services.
+The **`ApiFrameworkYellowPepper`** project is a comprehensive API testing framework that integrates various technologies to ensure robust functionality and performance validation of REST APIs. Built on a Gradle foundation, the project leverages **Cucumber** for Behavior-Driven Development (BDD), allowing teams to define clear and understandable test scenarios in natural language format. The actual testing is accomplished using **Rest Assured**, which provides a powerful and straightforward way to send HTTP requests and validate API responses against expected outcomes, thus enhancing the reliability of the API under test. 
+
+
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
