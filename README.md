@@ -71,5 +71,3 @@ To run the Swagger Petstore API locally using Docker, follow these steps:
    To execute the K6 performance test for the Petstore API, run the following command:
    ```bash
     k6 run petFindByStatusTest.js
-
-   

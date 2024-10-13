@@ -1,0 +1,2 @@
+# API FRAMEWORK
+ApiFrameworkYellowPepper is a Java-based testing framework designed to facilitate automated API testing. It utilizes tools like Gradle for build management and Rest Assured for making HTTP requests and validating responses. This framework is highly customizable and scalable, making it ideal for comprehensive API testing across various services.
